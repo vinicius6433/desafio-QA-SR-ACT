@@ -11,7 +11,15 @@
 ### Assim como solicitado no desafio, foram realizados testes em web(https://demo.automationtesting.in/) e api(https://dummyjson.com/), e foram realizado alguns cenários extras, que incluem iframes, iframes dentro de iframes, extração de tokens, Page Objects, Cucumber, validações dentro de jsons grandes e etc.
 
 
-## Técnicas aplicadas e conceitos explicados:
+## Tecnologias utilizadas
+
+<div align="left">
+  <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/SeleniumHQ.png?size=40" alt="Selenium" width="75" height="75"></a>,
+   <a target="_blank" rel="noopener noreferrer"><img src="https://avatars.githubusercontent.com/u/126123820?s=80&v=4" alt="Java" width="75" height="75"></a>,
+<a target="_blank" rel="noopener noreferrer"><img src="https://github.com/cucumber.png?size=40" alt="Java" width="75" height="75"></a>,
+<a target="_blank" rel="noopener noreferrer"><img src="https://avatars.githubusercontent.com/u/19369327?s=48&v=4" alt="Java" width="75" height="75"></a>,
+   
+## Técnicas aplicadas e conceitos:
 
 1. **Hooks**
    - O objetivo de utilizar o hooks com um overenginering é para demonstrar que uma feature pode utilizar 1 ou mais urls.
@@ -77,12 +85,5 @@ ProductsTest: Testa a criação e a validação de produtos, garantindo que os d
    - 
 ## Recomendação de leitura rsrs
    - Tenho um artigo escrito por mim sobre quando utilizar (ou não) o selenium, mostrando prós e contras, POC's e mais :D : https://www.linkedin.com/pulse/avalia%C3%A7%C3%A3o-da-framework-selenium-vinicius-moreira/
-## Tecnologias utilizadas
-
-<div align="left">
-  <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/SeleniumHQ.png?size=40" alt="Selenium" width="75" height="75"></a>,
-   <a target="_blank" rel="noopener noreferrer"><img src="https://avatars.githubusercontent.com/u/126123820?s=80&v=4" alt="Java" width="75" height="75"></a>,
-<a target="_blank" rel="noopener noreferrer"><img src="https://github.com/cucumber.png?size=40" alt="Java" width="75" height="75"></a>,
-<a target="_blank" rel="noopener noreferrer"><img src="https://avatars.githubusercontent.com/u/19369327?s=48&v=4" alt="Java" width="75" height="75"></a>,
   
 </div>
