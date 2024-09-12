@@ -7,7 +7,7 @@ br\com\act\rest\core\Constantes.class
 br\com\act\selenium\utils\log4j.class
 br\com\act\selenium\stepsDefinitions\desafioSteps.class
 br\com\act\selenium\stepsDefinitions\Hooks.class
-br\com\act\rest\tests\suite\ExtractLoginSuite.class
+br\com\act\rest\tests\suite\ExtractLoginSuiteTest.class
 br\com\act\selenium\utils\Utils.class
 br\com\act\rest\core\BaseTest.class
 br\com\act\rest\tests\AuthProductsTest.class

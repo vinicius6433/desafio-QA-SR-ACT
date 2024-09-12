@@ -204,6 +204,7 @@
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>
+                        <include>**/*.feature</include>
                     </includes>
                 </configuration>
             </plugin>

@@ -9,8 +9,8 @@
     <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/LoginTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/ProductsTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/UsersTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/suite/ExtractLoginSuite.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/suite/ExtractLoginSuite.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/suite/ExtractLoginSuiteTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/br/com/act/rest/tests/suite/ExtractLoginSuiteTest.java" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>

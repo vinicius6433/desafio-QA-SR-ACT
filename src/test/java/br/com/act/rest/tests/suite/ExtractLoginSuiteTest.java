@@ -18,7 +18,7 @@ import static io.restassured.RestAssured.given;
 @SuiteClasses({
 	AuthProductsTest.class, LoginTest.class, ProductsTest.class
 })
-public class ExtractLoginSuite extends BaseTest {
+public class ExtractLoginSuiteTest extends BaseTest {
 
 	private static final String LOGIN_URL = "/auth/login";
 	private static final String EMAIL = "emilys";

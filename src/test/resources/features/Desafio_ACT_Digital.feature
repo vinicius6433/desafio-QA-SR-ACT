@@ -35,14 +35,3 @@ Funcionalidade: Automacao das funcionalidades: “Register”, “Switch > Frames”, “W
   Cenario: Preenchimento de iframe 2
     Dado que eu esteja na URL "Frames.html"
     Quando eu preencher o iframe dentro do iframe "Fácil assim ?"
-
-  @Datepicker
-  Cenario: Preencher Data 1 e 2
-    Dado que eu esteja na URL "Datepicker.html"
-    Quando eu preencher os campos de data  "17/04/2001" e  "05/06/1999"
-
-  @Slider
-  Cenario: Slider em 50 porcento
-    Dado que eu esteja na URL "Slider.html"
-    E eu mova o slider para 50 porcento
-    Entao valido que o slide esta com o atributo em 50 porcento
