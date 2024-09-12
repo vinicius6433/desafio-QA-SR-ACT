@@ -5,8 +5,10 @@
 <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/fgalvess/fgalvess/blob/main/code.gif?raw=true" alt="Garoto programando com fundo em azul" width="700" height="400"></a>,
 
 </div>
+
 ## Observações:
-###Assim como solicitado no desafio, foram realizados testes em web(https://demo.automationtesting.in/) e api(https://dummyjson.com/), e foram realizado alguns cenários extras, que incluem iframes, iframes dentro de iframes, extração de tokens, Page Objects, Cucumber, validações dentro de jsons grandes e etc.
+
+### Assim como solicitado no desafio, foram realizados testes em web(https://demo.automationtesting.in/) e api(https://dummyjson.com/), e foram realizado alguns cenários extras, que incluem iframes, iframes dentro de iframes, extração de tokens, Page Objects, Cucumber, validações dentro de jsons grandes e etc.
 
 
 ## Técnicas aplicadas e conceitos explicados:
