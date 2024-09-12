@@ -1,0 +1,49 @@
+name: Selenium and Rest Assured Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      selenium-hub:
+        image: selenium/hub:3.141.59
+        ports:
+          - 4444:4444
+      chrome:
+        image: selenium/node-chrome:3.141.59
+        volumes:
+          - /dev/shm:/dev/shm
+        
+      firefox:
+        image: selenium/node-firefox:3.141.59
+        volumes:
+          - /dev/shm:/dev/shm
+
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          cache: maven
+
+      - name: Set up Maven
+        run: mvn -B clean install
+
+      - name: Run Selenium tests
+        run: mvn test -Dtest=*SeleniumTest.java
+
+      - name: Run Rest Assured tests
+        run: mvn test -Dtest=*RestAssuredTest.java
