@@ -77,7 +77,7 @@ ProductsTest: Testa a criação e a validação de produtos, garantindo que os d
 2. **Cenário: Manipulação de Frames**
    - Ambos os preenchimentos de iframes 1 e 2 foram utilizando Javascript Executor, por ser a maneira mais simples e direta para lidar com iframes.
 
-   - 
+     
 ## Recomendação de leitura rsrs
    - Tenho um artigo escrito por mim sobre quando utilizar (ou não) o selenium, mostrando prós e contras, POC's e mais :D : https://www.linkedin.com/pulse/avalia%C3%A7%C3%A3o-da-framework-selenium-vinicius-moreira/
   
