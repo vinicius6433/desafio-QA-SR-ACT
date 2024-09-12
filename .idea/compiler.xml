@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SP 22 - Testes Automatizados" />
-        <module name="Desafio-Automation" />
         <module name="SP 26 - Testes Automatizados" />
+        <module name="Desafio-ACT-Digital" />
+        <module name="Desafio-Automation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
