@@ -73,7 +73,7 @@ ProductsTest: Testa a criação e a validação de produtos, garantindo que os d
    - Foi automatizado todos os campos de forma simples e de fácil manutenção, demandando esforço mínimo.
    - Problemas na API de consulta do site forçaram a utilização de mocks via javascript para prosseguimento da aplicação, mas mesmo utilizando mocks não foi o suficiente, a api não respondeu mesmo assim.
    - Como a api não respondeu não há como validar que um cadastro foi efetuado, então não há validação.
-
+     
 2. **Cenário: Manipulação de Frames**
    - Ambos os preenchimentos de iframes 1 e 2 foram utilizando Javascript Executor, por ser a maneira mais simples e direta para lidar com iframes.
 
