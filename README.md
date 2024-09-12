@@ -5,6 +5,8 @@
 <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/fgalvess/fgalvess/blob/main/code.gif?raw=true" alt="Garoto programando com fundo em azul" width="700" height="400"></a>,
 
 </div>
+## Observações:
+###Assim como solicitado no desafio, foram realizados testes em web(https://demo.automationtesting.in/) e api(https://dummyjson.com/), e foram realizado alguns cenários extras, que incluem iframes, iframes dentro de iframes, extração de tokens, Page Objects, Cucumber, validações dentro de jsons grandes e etc.
 
 
 ## Técnicas aplicadas e conceitos explicados:
@@ -31,23 +33,30 @@
 5. **Utils**   
    - Sem muita frescura ou complicações em excesso, ela faz justamente o que se propõem, um local para métodos úteis a aplicação, deixei 2 de exemplo por ser um sistema muito pequeno.
    - Tive que desabilitar os ADS via aplicação por conta de que a demora excessiva de carregamento na página me forçaria a utilizar esperas implicitas em elementos e multi validações que julgo desnecessária.
-  
-     
+
 ## Cenários do desafio:
 
-1. **Cenário: Automatização do Formulário de Registro**
-   - Automatizar o preenchimento do formulário ao acessar o menu de navegação "Register".
+**Página de Login:
+ Campos de entrada para e-mail e senha.
+ Botão de login.
+ Mensagem de erro para credenciais inválidas.
+ Página de Cadastro:
+ Campos de entrada para nome, e-mail e senha.
+ Botão de cadastro.
+ Mensagem de sucesso após o cadastro.**
+ 
+## Cenários da API:
 
-2. **Cenário: Manipulação de Frames**
-   - Dentro do menu de navegação "Switch > Frames", realizar a escrita dentro de um frame através da automação.
+ExtractLoginSuite: Gerencia o login e a configuração do token de autenticação para os testes.
 
-3. **Cenário: Utilização do Datapicker**
-   - No menu de navegação "Widgets > Datapicker", inserir a data de nascimento nos dois campos através da automação.
+AuthProductsTest: Testa a autenticação e o acesso aos produtos, incluindo validações de tokens válidos e inválidos.
 
-4. **Cenário: Controle do Slider**
-   - No menu de navegação "Widgets > Slider", automatizar o movimento de 50% da barra.
+LoginTest: Verifica a funcionalidade de login, incluindo testes para credenciais válidas e inválidas, e a estrutura da resposta de login.
 
-## Pontos sobre os cenários:
+ProductsTest: Testa a criação e a validação de produtos, garantindo que os dados retornados estejam corretos e correspondam às expectativas.
+
+
+## Cenário WEB:
 
 1. **Cenário: Automatização do Formulário de Registro**
    - Automatizar o preenchimento do formulário ao acessar o menu de navegação "Register".
