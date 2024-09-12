@@ -25,7 +25,7 @@
    - O logger utilizado é o log4jx2, deixei alguns exemplos de sua utilização mas nada que realmente fosse necessário, somente para fins de apresentação, porém o verdadeiro poder dele se dá em amplicações muito extensas com diversas entradas e saídas.
      
 5. **Steps e Page**   
-   - A configuração segue o padrão americano com a glue focada na pasta stepsDefinitions que por sua vez faz sua chamada via instância de objetos pela page.
+   - A configuração segue o padrão americano com a glue focada na pasta br.com.act.selenium.stepsDefinitions que por sua vez faz sua chamada via instância de objetos pela page.
    - Não quis prosseguir com o padrão de Page Factory, mais por não ver uma necessidade de aplicar em um projeto de exemplo.
   
 5. **Utils**   
