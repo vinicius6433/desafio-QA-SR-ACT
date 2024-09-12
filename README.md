@@ -82,6 +82,7 @@ ProductsTest: Testa a criação e a validação de produtos, garantindo que os d
 <div align="left">
   <a target="_blank" rel="noopener noreferrer"><img src="https://github.com/SeleniumHQ.png?size=40" alt="Selenium" width="75" height="75"></a>,
    <a target="_blank" rel="noopener noreferrer"><img src="https://avatars.githubusercontent.com/u/126123820?s=80&v=4" alt="Java" width="75" height="75"></a>,
-
+<a target="_blank" rel="noopener noreferrer"><img src="https://github.com/cucumber.png?size=40" alt="Java" width="75" height="75"></a>,
+<a target="_blank" rel="noopener noreferrer"><img src="https://avatars.githubusercontent.com/u/19369327?s=48&v=4" alt="Java" width="75" height="75"></a>,
   
 </div>
